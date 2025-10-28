@@ -1,5 +1,5 @@
 import { Scale, BookOpen, Shield, Mail, Phone, MapPin } from 'lucide-react';
-import imgImageAnthonyCurry from "figma:asset/e33981847bfe134c927fb5e761547f03088bc9f8.png";
+import imgImageAnthonyCurry from '../assets/Attorney_Anthony_Curry.png';
 
 export function Attorney() {
   return (
@@ -22,7 +22,7 @@ export function Attorney() {
             {/* Photo */}
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="/src/assets/Attorney_Anthony_Curry.png" 
+                src= {imgImageAnthonyCurry} 
                 alt="Anthony Curry" 
                 className="w-full h-auto"
               />
