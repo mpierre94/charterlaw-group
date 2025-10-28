@@ -79,7 +79,7 @@ export function Footer() {
                   <p className="text-[rgba(31,42,68,0.6)]">Phone</p>
                   <a 
                     href="tel:702-523-7531"
-                    className="text-[#1E6091] hover:text-[#2b9e8c] transition-colors"
+                    className="text-[#1E6091] hover:text-[#d4a647] transition-colors"
                   >
                     702-523-7531
                   </a>
@@ -91,7 +91,7 @@ export function Footer() {
                   <p className="text-[rgba(31,42,68,0.6)]">Email</p>
                   <a 
                     href="mailto:anthony@charterschoollaw.com"
-                    className="text-[#1E6091] hover:text-[#2b9e8c] transition-colors break-words"
+                    className="text-[#1E6091] hover:text-[#d4a647] transition-colors break-words"
                   >
                     anthony@charterschoollaw.com
                   </a>
