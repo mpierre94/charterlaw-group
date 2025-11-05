@@ -1,6 +1,6 @@
 export function HowItWorksSection() {
   return (
-    <section className="bg-white py-24 lg:py-32 overflow-hidden">
+    <section id="how-it-works" className="bg-white py-24 lg:py-32 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Section Header */}
         <div className="text-center mb-16 space-y-4 animate-fade-in">

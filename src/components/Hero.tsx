@@ -2,8 +2,8 @@ import { ChevronDown } from 'lucide-react';
 import imgHeroNew from "figma:asset/f62c519fb12c975f43c02b626fcf1ea03e3aa0bd.png";
 
 export function Hero() {
-  const scrollToServices = () => {
-    const element = document.getElementById('services');
+  const scrollToHowItWorks = () => {
+    const element = document.getElementById('how-it-works');
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
@@ -62,7 +62,7 @@ export function Hero() {
               Schedule a Consultation
             </button>
             <button 
-              onClick={scrollToServices}
+              onClick={scrollToHowItWorks}
               className="bg-white text-[#1E6091] border-2 border-[#1E6091] px-8 py-3 rounded-full hover:bg-[#1E6091] hover:text-white transition-all"
             >
               Learn More
@@ -71,7 +71,7 @@ export function Hero() {
 
           {/* Scroll Indicator */}
           <button 
-            onClick={scrollToServices}
+            onClick={scrollToHowItWorks}
             className="flex items-center gap-2 text-[rgba(255,255,255,0.8)] hover:text-white transition-colors mx-auto pt-8 group"
           >
             <span className="uppercase tracking-wide">Scroll to Learn More</span>
