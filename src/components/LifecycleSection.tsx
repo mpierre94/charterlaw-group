@@ -6,17 +6,18 @@ const phases = [
   {
     icon: Rocket,
     title: 'PreLaunch Readiness',
-    description: 'Build your foundation with the right governance and policies.',
+    description: 'Legal guidance from concept to approval. Our pre-launch services ensure schools open on time, fully compliant, and built on a strong governance foundation.',
   },
   {
     icon: Users,
     title: 'Early Phase Support',
-    description: 'Navigate compliance and training during your first years.',
-  },
+    description: 'Build sound policies and efficient compliance practices. Our early-phase support allows schools to become stable and focus on academic success as they grow.',
+  },  
+
   {
     icon: TrendingUp,
     title: 'Sustainability Growth',
-    description: 'Ensure stability with long-term legal support and policy updates.',
+    description: 'Maintain long-term legal and operational compliance. Our sustainable growth services help schools stay stable and ready to expand their impact with confidence.',
   },
 ];
 

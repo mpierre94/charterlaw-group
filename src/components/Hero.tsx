@@ -25,7 +25,7 @@ export function Hero() {
       <div className="relative z-20 max-w-7xl mx-auto px-6 lg:px-12 py-32 text-center">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
           {/* Tagline Badge */}
-          <div className="inline-block">
+        {/* <div className="inline-block">
             <span 
               className="
                 bg-[rgba(227,181,74,0.85)] text-white uppercase
@@ -40,16 +40,17 @@ export function Hero() {
             >
               <span className="[@media(min-width:360px)]:inline hidden cera-black" >Built for Schools. <br /> Focused on Students.</span>
             </span>
-          </div>
+          </div> */}
 
           {/* Main Headline */}
           <h1 className="text-white" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}>
-            Legal Services for Charter Schools You Can Trust
+             Legal Services for Charter Schools — Smarter, Simpler, Built With Schools in Mind
+
           </h1>
 
           {/* Subheadline */}
           <p className="text-xl text-white max-w-2xl mx-auto" style={{ textShadow: '0 1px 4px rgba(0,0,0,0.4)' }}>
-            Proactive, affordable, and education-focused legal support for Nevada charter schools.
+            Innovative legal services tailored for schools from launch to sustainability.
           </p>
 
           {/* CTA Buttons */}

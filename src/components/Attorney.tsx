@@ -65,7 +65,7 @@ export function Attorney() {
               </div>
               <blockquote className="relative pl-8">
                 <p className="text-2xl italic text-[#1E6091] leading-relaxed">
-                  I started this firm because charter schools deserve legal counsel that understands their unique mission. We help schools focus on students, not compliance anxiety.
+                I founded Charter School Law Group to address a gap I saw firsthand in Nevada’s education system. 
                 </p>
               </blockquote>
             </div>
@@ -73,47 +73,49 @@ export function Attorney() {
             {/* Bio Paragraphs */}
             <div className="space-y-6 text-lg text-[rgba(0,0,0)] leading-relaxed">
               <p>
-                Anthony Curry founded Charter School Law Group after years of witnessing charter schools struggle to find affordable, education-focused legal support. Too many schools were either paying premium rates for general practice attorneys or going without proper legal guidance altogether.
+              Charter schools were doing extraordinary work for students and families but often struggled to access legal support that truly understood their world. Too many schools were forced to rely on counsel and advice that was costly and didn’t appreciate the nuances of charter school law.              </p>
+              <p>
+              As an executive at an education nonprofit, I spent three years working in Nevada education policy, helping to pass multiple pieces of legislation designed to strengthen and expand quality educational options. I also spent countless hours studying Nevada’s charter school statutes and learning the pitfalls schools often encounter. That experience showed me how strong governance and compliance frameworks can unlock the full potential of charter schools.
               </p>
               <p>
-                With deep expertise in Nevada education law and a passion for the charter school movement, Anthony built a practice dedicated exclusively to serving charter schools at every stage—from pre-authorization planning through sustainable growth.
-              </p>
-              <p>
-                His approach is simple: proactive prevention, transparent pricing, and practical solutions that respect both legal requirements and the realities of running a school. Every engagement is designed to empower school leaders, not create dependency.
+              My work in policy and advocacy has allowed me to see up close the value that charter schools bring to students, families, and our state. Charter School Law Group was built to support schools in their mission to continue providing that value: by providing the legal infrastructure schools need to stay stable and compliant.
               </p>
             </div>
 
             {/* Inline Icon Features */}
-            <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 pt-4">
-              <div className="flex items-center gap-3">
+            <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 pt-6">
+              <div className="flex items-start gap-4 min-w-[240px] sm:max-w-[280px]">
                 <div className="w-12 h-12 rounded-full bg-[rgba(43,158,140,0.1)] flex items-center justify-center flex-shrink-0">
                   <Scale size={24} color="#76b3e1" />
                 </div>
-                <div>
-                  <p className="text-[#1f2a44]">Education Law</p>
-                  <p className="text-[rgba(31,42,68,0.6)]">Specialization</p>
+                <div className="flex-grow">
+                  <p className="text-[#1f2a44] font-medium mb-2">Admissions</p>
+                  <p className="text-[rgba(31,42,68,0.6)] leading-relaxed">
+                    Texas <br />
+                    Washington <br />
+                    Nevada - Pending
+                  </p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-3">
+              <div className="flex items-start gap-4 flex-1">
                 <div className="w-12 h-12 rounded-full bg-[rgba(43,158,140,0.1)] flex items-center justify-center flex-shrink-0">
                   <BookOpen size={24} color="#76b3e1" />
                 </div>
-                <div>
-                  <p className="text-[#1f2a44]">Governance</p>
-                  <p className="text-[rgba(31,42,68,0.6)]">Board & Policy</p>
+                <div className="flex-grow">
+                  <p className="text-[#1f2a44] font-medium mb-2">Education</p>
+                  <p className="text-[rgba(31,42,68,0.6)] leading-relaxed">
+                    J.D., 2021, magna cum laude,<br />
+                    Texas Southern University,<br />
+                    Thurgood Marshall School of Law<br />
+                    <br />
+                    B.S. Political Science, 2017,<br />
+                    Arizona State University
+                  </p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full bg-[rgba(43,158,140,0.1)] flex items-center justify-center flex-shrink-0">
-                  <Shield size={24} color="#76b3e1" />
-                </div>
-                <div>
-                  <p className="text-[#1f2a44]">Compliance</p>
-                  <p className="text-[rgba(31,42,68,0.6)]">Proactive Support</p>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
