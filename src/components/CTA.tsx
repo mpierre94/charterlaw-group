@@ -35,7 +35,7 @@ export function CTA() {
 
         {/* Trust Indicators */}
         <p className="text-[rgba(255,255,255,0.7)] mt-8">
-          No obligation · Confidential · Nevada Bar Certified
+          No obligation · Confidential · Easy scheduling
         </p>
       </div>
     </section>
